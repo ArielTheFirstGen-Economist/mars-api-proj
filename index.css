@@ -1,0 +1,53 @@
+body {
+  color: darkcyan;
+  background-color: pink;
+  padding: 0 50px;
+  margin: 0 0;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  color: darkmagenta;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  gap: 80px;
+  justify-content: space-evenly;
+  background-color: beige;
+}
+
+/*
+#Bitcon-Dates li {
+  border: 10px solid pink;
+} */
+
+#BitcoinPlot iframe {
+  border: 30px solid pink;
+
+  padding: 50px 50px;
+  margin: 10% auto;
+}
+
+#Bitcon-Dates ul {
+  text-align: center;
+  padding: 10px 10px;
+  width: 90%;
+  border: 10px solid #ffc0cb;
+  margin: 10%;
+  gap: 50px;
+}
+
+#Bitcon-Prices ul {
+  text-align: center;
+  padding: 10px 10px;
+  width: 100%;
+  border: 10px solid pink;
+  margin: 10%;
+  gap: 50px;
+}
