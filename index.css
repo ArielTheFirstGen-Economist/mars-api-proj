@@ -22,6 +22,25 @@ ul {
   background-color: beige;
 }
 
+.navBars {
+  position: sticky;
+  top: 0;
+  background-color: lightblue;
+  border: 6px solid pink;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+.DateBar {
+  flex: 1;
+}
+
+.PriceBar {
+  flex: 1;
+}
+
 /*
 #Bitcon-Dates li {
   border: 10px solid pink;

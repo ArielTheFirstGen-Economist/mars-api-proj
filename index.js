@@ -1,42 +1,4 @@
-/* API */
-// -------------------------------
-
-/* async function myGithub() {
-  try {
-    const gitHubApi = await fetch(
-      `https://api.github.com/users/ArielTheFirstGen-Economist`,
-    );
-
-    if (!gitHubApi.ok) {
-      throw new Error("Request failed");
-    }
-
-    const gitHubData = await gitHubApi.json();
-    console.log("success", gitHubData);
-
-    const repoData = await fetch(gitHubData.repos_url);
-    console.log("Repo Url", repoData);
-
-    const repoNames = await repoData.json();
-    console.log("Success! View your repos names!", repoNames);
-
-    const projectSelection = document.querySelector("#Bitcon-Prices");
-    const projectList = projectSelection.querySelector("ul");
-    projectList.classList.add("pflex-list"); 
-
-    for (let i = 0; i < repoNames.length; i++) {
-      const project = document.createElement("li");
-      project.textContent = `${repoNames[i].name}`;
-      projectList.append(project);
-    }
-  } catch (error) {
-    console.log(error.message);
-  }
-}
-
-myGithub(); */
-
-async function sampleApi() {
+/* async function sampleApi() {
   try {
     const bitCoinApi = await fetch(
       "https://api.sampleapis.com/bitcoin/historical_prices",
@@ -74,7 +36,7 @@ async function sampleApi() {
   }
 }
 
-sampleApi();
+sampleApi(); */
 
 // API for github
 
